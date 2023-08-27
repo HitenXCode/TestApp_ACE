@@ -46,10 +46,11 @@ The app also includes an admin panel that allows administrators to manage user a
 
 ## Installation
 
-1. Clone the repository from GitHub:
+Clone the repository from GitHub:
 
 
- git clone https://github.com/your-username/dish-polling-app.git
+ git clone https://github.com/HitenXCode/TestApp_ACE.git
+ 
 1)Navigate to the project directory:
 cd test_react
 2)Install the project dependencies:
