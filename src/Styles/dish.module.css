@@ -1,0 +1,109 @@
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 0.28fr);
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+}
+
+.backBtn {
+  position: relative;
+  top: 4em;
+  left: 15em;
+  color: #280505;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  margin-bottom: 1em;
+  padding: 10px 20px;
+  border-radius: 1em;
+  font-size: 1.125em;
+  border: none;
+}
+
+.disableBtn {
+  background-color: #c3c3c3;
+  color: #2c3333;
+  cursor: no-drop;
+}
+
+.voteBtn {
+  background-color: #91c483;
+  cursor: pointer;
+}
+
+.voteBtn:hover {
+  background-color: #77d970;
+}
+
+@media screen and (max-width: 900px) {
+  .backBtn {
+    top: 2em;
+    left: 1em;
+  }
+}
+@media screen and (max-width: 700px) {
+  ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.backBtn:hover {
+  color: #2c3333;
+}
+
+.dishItem {
+  padding: 1em;
+  border-radius: 1em;
+  margin-top: 1em;
+  background-color: #f1f1f1;
+  box-shadow: 1px 1px 10px #c3c3c3;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column; /* Make the card a flex container with column layout */
+  justify-content: space-between; /* Distribute space between card content and buttons */
+}
+
+.dishItem:hover {
+  transform: scale(1.05);
+}
+.dishItem img {
+  width: 100%;
+  border-radius: 1em;
+}
+.dishItem h1 {
+  font-size: 1.25em;
+  text-align: center;
+  margin: 10px 0;
+}
+.dishItem p {
+  color: #2c3333;
+  font-size: 0.9em;
+}
+
+.rankContainer {
+  flex-direction: row; /* Align the buttons vertically */
+  align-items: center;
+  margin-top: auto; 
+  justify-content: center;
+  /* Push the buttons to the bottom of the card */
+}
+.rankContainer .rank {
+  padding: 10px 15px;
+  border: 1px solid;
+  text-align: center;
+  margin-bottom: 0%;
+}
+.rank:hover {
+  background-color: blueviolet;
+  color: #9e3f3f;
+  margin-bottom: 0%;
+}
+
+.rankActiveBtn {
+  padding: 10px 15px;
+  background-color: blueviolet;
+  margin-bottom: 0%;
+}
