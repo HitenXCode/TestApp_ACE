@@ -9,7 +9,6 @@ The Dish Polling Web App is a web application designed for users to participate 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -34,13 +33,21 @@ The app also includes an admin panel that allows administrators to manage user a
 - admin is having extar functionalities above the user, like he can visulize the users name,password,voting,ponts and also admin can delete the user data with his choices and ponits everything.
 
 #### if you want to use admin panel here in this project firstly add the users voting.
-1)login thrugh username:Vishal password:Vishal123  ,add the choices of dishes,see results and logout.
-2)login thrugh username:Ronik password:Ronik123  ,add the choices of dishes,see results and logout.
-3)login thrugh username:Bhavin password:Bhavin123  ,add the choices of dishes,see results and logout.
-4)login thrugh username:Jenil password:Jenil123  ,add the choices of dishes,see results and logout.
+  - login thrugh username:Vishal password:Vishal123  ,add the choices of dishes,see results and logout.
+  - login thrugh username:Ronik password:Ronik123  ,add the choices of dishes,see results and logout.
+  - login thrugh username:Bhavin password:Bhavin123  ,add the choices of dishes,see results and logout.
+  - login thrugh username:Jenil password:Jenil123  ,add the choices of dishes,see results and logout.
 
 #### now admin login to visulize and manage the users..
 #### - admin's username:Hiten & Password:Hiten123 ,after login go to admin-panel........
+
+Start the development server:
+npm start
+
+-Open your web browser and navigate to http://localhost:3000 to access the app.
+-Register a user account or use the provided sample user accounts.
+-Explore the dish listing, rank dishes, and submit your choices.
+-Admins can access the admin panel to manage user accounts and view rankings.
 
 ## Features
 
@@ -73,14 +80,6 @@ cd test_react
 2)Install the project dependencies:
 npm install
 
-## Usage
-Start the development server:
-npm start
-
--Open your web browser and navigate to http://localhost:3000 to access the app.
--Register a user account or use the provided sample user accounts.
--Explore the dish listing, rank dishes, and submit your choices.
--Admins can access the admin panel to manage user accounts and view rankings.
 
 ## Contributing
 Contributions are welcome! If you find any bugs or want to enhance the app, feel free to submit a pull request.
