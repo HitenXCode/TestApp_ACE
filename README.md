@@ -5,6 +5,7 @@ The Dish Polling Web App is a web application designed for users to participate 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [important-instructions](#important-instructions)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -24,6 +25,22 @@ The Dish Polling Web App provides users with the ability to:
 - View the top three ranked dishes and the remaining dishes.
 
 The app also includes an admin panel that allows administrators to manage user accounts, view user rankings, and manage dishes.
+
+## important-instructions
+
+- Here if you dowloading a project and want to check the projects then below is given guidelines:
+- Here by default 4 user and 1 admin user is there,
+- user is able to do voting only one time(but  he can edit their votes also), also user can see their ranking of their dishes.
+- admin is having extar functionalities above the user, like he can visulize the users name,password,voting,ponts and also admin can delete the user data with his choices and ponits everything.
+
+#### if you want to use admin panel here in this project firstly add the users voting.
+1)login thrugh username:Vishal password:Vishal123  ,add the choices of dishes,see results and logout.
+2)login thrugh username:Ronik password:Ronik123  ,add the choices of dishes,see results and logout.
+3)login thrugh username:Bhavin password:Bhavin123  ,add the choices of dishes,see results and logout.
+4)login thrugh username:Jenil password:Jenil123  ,add the choices of dishes,see results and logout.
+
+#### now admin login to visulize and manage the users..
+#### - admin's username:Hiten & Password:Hiten123 ,after login go to admin-panel........
 
 ## Features
 
